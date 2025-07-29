@@ -3,15 +3,18 @@ using namespace std;
 
 int main() 
 {
-    int num1, num2;
+    int num1;
+    int num2;
     char operation;
     
-   
+   cout << " Enter your first number:";
     cin >> num1;
-   
+    cout << "enter your operation:";
+    cin >> operation;
+   cout << "enter your second number:";
     cin >> num2;
 
-    switch (operation){
+    switch (operation) {
         case '+':
         cout << "Result: " << num1 + num2 << endl;
         break;
