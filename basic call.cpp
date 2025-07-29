@@ -1,19 +1,20 @@
-#inlcude <iostream>
+#include <iostream>
 using namespace std;
 
-int main ()
+int main() 
 {
-
-    int num1, num2
+    int num1, num2;
     char operation;
     
-    cin >> num1
-    cin >> num2
+   
+    cin >> num1;
+   
+    cin >> num2;
 
     switch (operation){
         case '+':
-        cout << "Result: " << num1 + num 2 << endl;
-        break:
+        cout << "Result: " << num1 + num2 << endl;
+        break;
 
         case '-':
         cout << "Result: " << num1 - num2 << endl;
@@ -25,10 +26,10 @@ int main ()
         
         case '*':
         cout << "Result: " << num1 *num2 << endl;
-        break:
+        break;
         
         default:
-        cout << "invalid operation:" << operatioon << endl;
+        cout << "invalid operation:" << operation << endl;
         
      } 
 
